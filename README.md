@@ -1,20 +1,16 @@
 # ✨ Custom Cursor
 
-A Chrome extension that replaces your boring cursor with a customizable sparkle cursor and trail effects.
-
-![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-green)
+A Chrome extension that replaces your cursor with a customisable one. Make clicking more interesting. 
 
 ## Features
 
 - **Custom cursor shapes**: Arrow, Heart, Sparkle, Pointer
 - **Trail effects**: Sparkles, Hearts, Rainbow
-- **Fully customizable**:
+- **Fully customisable**:
   - Color picker
   - Cursor size (16-48px)
   - Trail intensity (1-10)
-- **Retro Windows 95 style** popup UI
 - **Works on all websites**
-- **Toggle on/off** instantly
 
 ## Installation
 
@@ -33,7 +29,7 @@ A Chrome extension that replaces your boring cursor with a customizable sparkle 
 
 5. Select the cloned `custom-cursor` folder
 
-6. Click the extension icon in your toolbar to customize!
+6. Click the extension icon in your toolbar to customise. 
 
 ## Usage
 

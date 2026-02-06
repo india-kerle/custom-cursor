@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+  <title>Sparkle Cursor</title>
+</head>
+<body>
+  <div class="window">
+    <div class="title-bar">
+      <span>✨ sparkle!.exe</span>
+      <div class="title-buttons">
+        <button class="title-btn">_</button>
+        <button class="title-btn">□</button>
+        <button class="title-btn">×</button>
+      </div>
+    </div>
+    <div class="content">
+      <div class="header">
+        <div class="logo">✨</div>
+        <p class="tagline">Make your cursor magical!</p>
+      </div>
+
+      <!-- Master Toggle -->
+      <div class="section">
+        <label class="toggle-container">
+          <input type="checkbox" id="enabled-toggle" class="toggle-input">
+          <span class="toggle-slider"></span>
+          <span class="toggle-label" id="toggle-label">on ✨</span>
+        </label>
+      </div>
+
+      <!-- Color -->
+      <div class="section">
+        <div class="section-title"><span class="sparkle">✧</span> color:</div>
+        <div class="color-row">
+          <input type="color" id="color-picker" class="color-picker" value="#ff69b4">
+          <span class="color-label" id="color-label">#ff69b4</span>
+        </div>
+      </div>
+
+      <!-- Cursor Shape -->
+      <div class="section">
+        <div class="section-title"><span class="sparkle">✧</span> cursor shape:</div>
+        <div class="button-group" id="shape-group">
+          <button class="option-btn active" data-shape="arrow">🖱️ arrow</button>
+          <button class="option-btn" data-shape="heart">💗 heart</button>
+          <button class="option-btn" data-shape="sparkle">✨ sparkle</button>
+          <button class="option-btn" data-shape="pointer">👆 pointer</button>
+        </div>
+      </div>
+
+      <!-- Cursor Size -->
+      <div class="section">
+        <div class="section-title"><span class="sparkle">✧</span> cursor size:</div>
+        <div class="range-row">
+          <input type="range" id="size-slider" class="range-slider" min="16" max="48" value="24">
+          <span class="range-value" id="size-value">24</span>
+        </div>
+      </div>
+
+      <!-- Trail Type -->
+      <div class="section">
+        <div class="section-title"><span class="sparkle">✧</span> trail type:</div>
+        <div class="button-group" id="trail-group">
+          <button class="option-btn active" data-trail="sparkles">✨ sparkles</button>
+          <button class="option-btn" data-trail="hearts">💗 hearts</button>
+          <button class="option-btn" data-trail="rainbow">🌈 rainbow</button>
+        </div>
+      </div>
+
+      <!-- Intensity -->
+      <div class="section">
+        <div class="section-title"><span class="sparkle">✧</span> trail intensity:</div>
+        <div class="range-row">
+          <input type="range" id="intensity-slider" class="range-slider" min="1" max="10" value="5">
+          <span class="range-value" id="intensity-value">5</span>
+        </div>
+      </div>
+
+      <!-- Preview -->
+      <div class="section">
+        <div class="section-title"><span class="sparkle">✧</span> preview:</div>
+        <div class="preview-container">
+          <canvas id="preview-canvas" class="preview-canvas"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

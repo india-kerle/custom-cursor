@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Sparkle Cursor",
+  "name": "Customise your Cursor",
   "version": "1.0.0",
-  "description": "Add sparkle trails to your cursor on any website",
+  "description": "Make clicking more interesting.",
   "permissions": ["storage", "activeTab", "tabs"],
   "action": {
-    "default_title": "Sparkle Cursor Settings",
+    "default_title": "Custom Cursor Settings",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icon16.png",
